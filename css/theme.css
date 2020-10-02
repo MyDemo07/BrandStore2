@@ -17654,17 +17654,19 @@ html.ie.gecko body.modal-open {
         width: 100%; } }
 
 #ModalDiscount .tt-background {
-  background: #ffffff url("../images/custom/bg-discount.png") 0 0 no-repeat;
+  /* background: #ffffff url("../images/custom/bg-discount.png") 0 0 no-repeat; */
   background-size: 50% auto; }
 
 #ModalDiscount .modal-body {
   padding: 52px 0; }
   @media (max-width: 650px) {
-    #ModalDiscount .modal-body:not(.tt-layout-center) {
-      background: #ffffff; }
+    /* #ModalDiscount .modal-body:not(.tt-layout-center) {
+       background: #ffffff;  
+    } */
       #ModalDiscount .modal-body:not(.tt-layout-center) [class^="col"] {
         flex: 0 0 100%;
-        max-width: 100%; } }
+        /* max-width: 100%;  */
+      } }
   @media (max-width: 650px) {
     #ModalDiscount .modal-body {
       padding: 30px 0; }
