@@ -453,7 +453,7 @@ body.no-scroll{
 }
 
 /*
-	leftColumn desctop toggle (listing-metro.html, listing-not-sidebar-full-width.html)
+	leftColumn desctop toggle (listing-metro.html, listing-not-sidebar.html)
 	*add class in html desctop-no-sidebar
 */
 .aside.leftColumn.desctop-no-sidebar{
@@ -568,7 +568,7 @@ html.ie{
 .tt-btn-col-close + .tt-collapse{
 	margin-top: 32px;
 }
-/* desctope (listing-not-sidebar-full-width.html)*/
+/* desctope (listing-not-sidebar.html)*/
 .column-open .tt-btn-col-close + .tt-collapse{
 	@media (min-width:1025px){
 		margin-top: 20px;
