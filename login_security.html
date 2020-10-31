@@ -998,11 +998,11 @@
 								<span class="values">**********</span>
 								<input type="text" class="form-control hideInput" name="" placeholder="Password">
 							</li>
-							<li>
+							<!-- <li>
 								<label>Two-Step Verification (2SV) Settings:</label>
 								<span class="values">Manage your Two Step Verification (2SV) Authenticators</span>
 								<input type="text" class="form-control hideInput" name="" placeholder="Name">
-							</li>
+							</li> -->
 						</ul>
 					</div>
 					<a href="#." class="btn btn-lg mt-3" >Done</a>
@@ -1186,7 +1186,16 @@
 
 <script>
 	$(document).ready(function(){
-		$(".editFromBtn").click(function(){
+		
+		var queryString = location.search.substring(1)
+		if  (queryString==="edit")
+		{
+			$(".hideInput").toggleClass("show");
+			$(".values").toggleClass("valuesHide");
+			$(".formContainer").toggleClass("borderNone");
+		}		
+
+		$(".editFromBtn").click(function(){			
 			$(".hideInput").toggleClass("show");
 		});
 		$(".editFromBtn").click(function(){
